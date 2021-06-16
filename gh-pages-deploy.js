@@ -14,7 +14,7 @@ const fs = require("fs");
         console.log("Pushing to gh-pages-live...");
         await execa("git", ["push", "origin", "HEAD:gh-pages-live", "--force"]);
         await execa("rm", ["-r", folderName]);
-        await execa("git", ["checkout", "-f", "project/to-vue"]);
+        await execa("git", ["checkout", "-f", "main"]);
         await execa("git", ["branch", "-D", "gh-pages-live"]);
         console.log("Successfully deployed, check your settings");
     } catch (e) {
