@@ -1,21 +1,18 @@
 <template>
     <div>
         <!-- Banner -->
-        <div id="banner" class="mt-3 mt-sm-5">
-            <div class="container">
+        <div id="banner" class="mt-2 mt-sm-4 container">
                 <div class="row">
-                    <div class="col-10 col-md-6">
+                    <div class="col-10 col-md-8 ml-5">
                         <span class="banner-title">
-                            Hərbi qulluqçularla bağlı vərəsəlik
-                            şəhadətnamələrinin verilməsi
+                            Vətən Müharibəsi iştirakçısı olmuş əməkdaşlarımızı tanıyaq
                         </span>
                     </div>
                 </div>
-            </div>
         </div>
         
         <!-- Boxes -->
-        <div class="container mt-5">
+        <div class="container mt-5 p-0">
             <div class="row">
                 <div class="col-12 mb-3">
                     <span class="title">Qazilər</span>
@@ -88,8 +85,9 @@
 
 <style scoped>
     #banner {
-        background-image: url('../../public/images/qazi.jpeg');
-        filter: brightness(-60);
+        background:linear-gradient(to right,#3a729298, #b19e7f80), url('../../public/images/soldier3.jpeg') no-repeat;
+        /* filter: brightness(-60); */
+        min-height: 450px;
     }
     
     .banner-title {

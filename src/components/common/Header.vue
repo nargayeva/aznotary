@@ -4,7 +4,7 @@
       <div
         class="col-md-5 col-6 d-flex justify-content-end justify-content-md-start"
       >
-        <a href="/vereselik"
+        <a href="/"
           ><img
             :src="require('/public/images/edliyye - logo.png')"
             class="float-center float-sm-left align-self-center img-fluid logo"

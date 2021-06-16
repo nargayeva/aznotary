@@ -31,9 +31,9 @@
 
                 <hr class="d-sm-block d-md-none" />
 
-                <div class="col-md-4 d-flex flex-column align-items-md-center align-items-sm-start">
+                <div class="col-md-4 d-flex flex-column align-items-md-center align-items-sm-start justify-content-end">
 
-                    <img :src="require('/public/images/edliyye - logo.png')" class="img-fluid d-flex mb-3" id="logo" alt="">
+                    <!-- <img :src="require('/public/images/edliyye - logo.png')" class="img-fluid d-flex mb-3" id="logo" alt=""> -->
 
                     <div class="d-inline">
                         <i class="fab fa-instagram footer-icons"></i>
