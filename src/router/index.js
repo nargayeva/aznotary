@@ -12,9 +12,9 @@ const routes = [
                 component: () => import('../views/Home'),
             },
             {
-                path: 'herbi',
-                name: 'herbi',
-                component: () => import('../views/Herbi'),
+                path: 'nofer',
+                name: 'nofer',
+                component: () => import('../views/nofer'),
             },
             {
                 path: 'meslehet',
@@ -44,3 +44,4 @@ const router = createRouter({
 });
 
 export default router;
+

@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-4">
-    <div class="row">
+    <div class="row justify-content-between">
       <div
         class="col-md-5 col-6 d-flex justify-content-end justify-content-md-start"
       >
@@ -30,14 +30,6 @@
             >AZƏRBAYCAN <span class="d-block">NOTARİAT PALATASI</span></span
           >
         </div>
-      </div>
-
-      <div
-        class="col-2 d-none d-sm-flex justify-content-end align-self-start"
-        id="languages" @click="toggleLanguage"
-      >
-        <span v-if="lang === 'az'" id="en">EN</span>
-        <span v-else id="az">AZ</span>
       </div>
     </div>
   </div>

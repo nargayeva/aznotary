@@ -37,7 +37,7 @@ body {
 }
 
 :root {
-    --black-color: #292328;
+    --black-color: #1d181c;
     --blue-color: #3A7292;
     --golden-color: #B19E7F;
 }
@@ -86,7 +86,7 @@ body {
 }
 
 .title {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .flex-button {
