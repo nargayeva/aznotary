@@ -17,19 +17,29 @@ const routes = [
                 component: () => import('../views/nofer'),
             },
             {
-                path: 'meslehet',
-                name: 'meslehet',
-                component: () => import('../views/Meslehet'),
+                path: 'ziya',
+                name: 'ziya',
+                component: () => import('../views/ziya'),
             },
             {
-                path: 'sual-cavab',
-                name: 'sual-cavab',
-                component: () => import('../views/SualCavab'),
+                path: 'ayxan',
+                name: 'ayxan',
+                component: () => import('../views/ayxan'),
             },
             {
-                path: 'xerite',
-                name: 'xerite',
-                component: () => import('../views/Xerite'),
+                path: 'eli',
+                name: 'eli',
+                component: () => import('../views/eli'),
+            },
+            {
+                path: 'shamxal',
+                name: 'shamxal',
+                component: () => import('../views/shamxal'),
+            },
+            {
+                path: 'ozal',
+                name: 'ozal',
+                component: () => import('../views/ozal'),
             }
         ]
     }

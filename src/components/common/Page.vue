@@ -1,6 +1,7 @@
 <template>
         <!-- Banner -->
-        <div id="banner" class="mt-2 mt-sm-4 container">
+        <div class="container">
+        <div id="banner" class="mt-2 mt-sm-4">
             <div class="container">
                 <div class="row">
                     <div class="col-10 col-md-6 ml-5">
@@ -20,13 +21,14 @@
         <div class="container">
             <div class="row justify-content-evenly">
                 <div class="col-md-5 col-12 p-0">
-                    <img src="../../public/images/nofer.jpg" alt="" class="images">
+                    <img :src="getImageUrl('nofer.jpg')" alt="" class="images">
                 </div>
-
                 <div class="col-md-6 ml-1 col-12 align-self-center">
-                    <span class="title text-center text-md-start">Xodayev Nofər</span>
+                    <span class="title text-center text-md-start">{{title}}</span>
                     <hr>
-                    <p>Mən, Xodayev Nofər Nemət oğlu, 24.05.1996-cı ildə Balakən rayonunun Katex kəndində anadan olmuşam. Orta təhsilə 2002-ci ildə Katex 1 saylı tam orta məktəbdə başlamış, 2013-cü ildə həmin məktəbi bitirmişəm. 2013-cü ildə Azərbaycan Dövlət İqtisad Universitetinin İnformatika və İdarəetmə fakültəsinin Menecment ixtisasına daxil olmuşam. 2017-ci ildə həmin universiteti bitirmişəm. 2017-2018-ci illərdə hərbi xidmətdə olmuşam. 23.09.2019-cu il tarixdə 2 saylı Bakı “Asan xidmət” mərkəzinin notariat ofisində baş mütəxəssis (böyük inspektor) vəzifəsində işləməyə başlamışam. 28.09.2020-ci il tarixdə Nəsimi rayon hərbi komisarlığı tərəfindən Silahlı Qüvvələrin təliminə cəlb olunmuşam. 03.10.2020-ci il tarixdə Ali Baş Komandanın əmrinə əsasən işğal olunmuş torpaqlarımızın azad olunması uğrunda döyüşlərə qatılmışam. Füzuli, Cəbrayıl və Xocavənd döyüşlərində iştirak etmişəm. Cəbrayıl və Xocavəndin azad olunmasına görə və vətən müharibəsi iştirakçısı medalları ilə, o cümlədən Fəxri fərman və təşəkkürnamələrlə təltif olunmuşam. 12.01.2021-ci il tarixdə Azərbaycan Respublikası Ədliyyə Naziri cənab Fikrət Məmmədov tərəfindən “Fəxri Fərman”a layiq görülmüşəm. </p>
+                    <p>
+                        {{body}}
+                    </p>
                 </div>
                 
             </div>
@@ -42,13 +44,36 @@
         </div>
     </div>
         </div>
+        </div>
 </template>
 
 <script>
-    import '../assets/css/index.css'
+    import '../../assets/css/index.css'
 
     export default {
-        name: "nofer"
+        name: "nofer",
+        props : {
+           coverImage : {
+               required:true
+           },
+           title: {
+                required:true,
+                type:String
+           }, 
+           body: {
+                required:true,
+                type:String
+           }
+        }, 
+        methods : {
+            getImageUrl(image){
+                let img = "../../../public/images/" + image;
+
+                alert(img)
+
+                return img
+            }
+        }
     }
 </script>
 
@@ -84,7 +109,7 @@
   }
 
     #banner {
-        background:url('../../public/images/banner2.jpg') no-repeat;
+        background:url('../../../public/images/banner2.jpg') no-repeat;
         background-size: cover;
         /* filter: brightness(-60); */
         min-height: 500px;
@@ -97,7 +122,7 @@
 
        @media (max-width: 576px) {
     #banner {
-        background:url('../../public/images/banner3.jpg') no-repeat center center;
+        background:url('../../../public/images/banner3.jpg') no-repeat center center;
         background-size: cover;
         /* filter: brightness(-60); */
         min-height: 400px;
