@@ -1,17 +1,12 @@
 <template>
     <div>
         <!-- Banner -->
-        <div id="banner" class="mt-2 mt-sm-4 container">
-                <div class="row">
-                    <div class="col-10 col-md-8 ml-5">
-                    </div>
-                </div>
-        </div>
+        <div id="banner" class="mt-2 mt-sm-4 container"></div>
         
         <!-- Boxes -->
         <div class="container mt-5 p-0">
             <div class="row">
-                <div class="col-12 mb-3">
+                <div class="col-12 mb-3 text-center">
                     <span class="title">Vətən Müharibəsi iştirakçısı olmuş əməkdaşlarımızı tanıyaq</span>
                 </div>
             </div>

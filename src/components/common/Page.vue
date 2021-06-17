@@ -1,7 +1,7 @@
 <template>
         <!-- Banner -->
-        <div class="container">
-        <div id="banner" class="mt-2 mt-sm-4">
+    <div class="container">
+        <div id="banner" class="mt-0">
             <div class="container">
                 <div class="row">
                     <div class="col-10 col-md-6 ml-5">
@@ -11,19 +11,14 @@
         </div>
 
         <div class="container mt-5 p-0">
-            <div class="row">
-                <div class="col-12 mb-3">
-                    <span class="title">Vətən Müharibəsi iştirakçısı olmuş əməkdaşlarımızı tanıyaq</span>
-                </div>
-            </div>
 
     <div class="mb-5">
         <div class="container">
             <div class="row justify-content-evenly">
-                <div class="col-md-5 col-12 p-0">
-                    <img :src="getImageUrl('nofer.jpg')" alt="" class="images">
+                <div class="col-md-4 col-12 p-0">
+                    <img :src="require(`../../../public/images/${image}`)" alt="" class="images">
                 </div>
-                <div class="col-md-6 ml-1 col-12 align-self-center">
+                <div class="col-md-8 col-12 align-self-start">
                     <span class="title text-center text-md-start">{{title}}</span>
                     <hr>
                     <p>
@@ -33,14 +28,14 @@
                 
             </div>
 
-            <div class="row mt-3 justify-content-between">
+            <!-- <div class="row mt-3 justify-content-between">
                 <div class="button">
                     ƏVVƏLKİ
                 </div>
                <div class="button">
                     SONRAKI
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
         </div>
@@ -53,8 +48,10 @@
     export default {
         name: "nofer",
         props : {
-           coverImage : {
-               required:true
+           image : {
+               required:true,
+               type:String
+
            },
            title: {
                 required:true,
@@ -65,15 +62,7 @@
                 type:String
            }
         }, 
-        methods : {
-            getImageUrl(image){
-                let img = "../../../public/images/" + image;
 
-                alert(img)
-
-                return img
-            }
-        }
     }
 </script>
 
