@@ -6,7 +6,7 @@
                     <span id="footer-title">Faydalı linklər</span>
                     <a href="https://www.justice.gov.az/idareler/71" target="_blank" class="footer-text pt-3">Qeydiyyat və notariat baş idarəsi</a>
                     <a href="https://aznotary.az/az" target="_blank" class="footer-text pt-2">Azərbaycan Notariat Palatası</a>
-                    <a href=# class="footer-text pt-2">Notarius olmaq istəyən şəxslər üçün</a>
+                    <a href=# class="footer-text pt-2">Qarabağ həqiqətləri</a>
                 </div>
 
                 <hr class="d-sm-block d-md-none" />

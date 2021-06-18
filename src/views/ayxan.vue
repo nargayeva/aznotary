@@ -1,20 +1,25 @@
 <template>
-    <!-- Banner -->
-    <div id="banner" class="mt-3 mt-sm-5">
-    <page title="Məmmədli Ayxan Qüdrət oğlu" image="ayxan.jpg" body="Mən Məmmədli Ayxan Qüdrət oğlu 21.09.1996-cı ildə Bakı şəhərində anadan olmuşam. 2002-ci ildə Bakı şəhəri, Yasamal rayonu, 153 saylı orta məktəbin 1-ci sinifinə daxil olmuşam və 2013-cu ildə həmin məktəbin 11-ci sinfini bitirmişəm. Daha sonra Milli Aviasiya Akademiyasının Uçuş Mühəndisliyi (təyyarə)  ixtisasına tələb olunan “Psixofizioloji peşə seçimi” və  “Fiziki hazırlıq”  üzrə xüsusi qabiliyyət müsabiqələrini və Dövlət imtahan mərkəzi tərəfindən keçirilən qəbul imtahanında müəyyən balı toplayaraq, ali təhsilin bakalavr pilləsi üzrə təhsilimi davam etmişəm. 2018-ci ildə ali təhsilimi başa vuraraq, Müdafiə Nazirliyinin N saylı hərbi hissəsinə həqiqi hərbi xidmətə yollanmışam. 1 illik hərbi xidməti 2019-cu ilin aprel ayında başa vurmuşam.  Tərxis olduqdan sonra az bir vaxt kiçik bizneslə məşqul olmuşam. 2020-ci ilin iyul ayının 3-də 52 saylı Notariat ofisində könüllü kimi fəaliyyətə başlamışam. 2020-ci ilin sentyabr ayının 28-də Prezident İlham Əliyevin sərəncamı ilə Azərbaycan Respublikasında qismən səfərbərlik elan olunduqdan sonra həmin gün Yasamal rayon hərbi komissarlığı tərəfindən mənə çağırış göndərildi. 29.09.2021-ci ildə yenidən ordu sıralarına yollandım. Cəbrayıl, Füzuli, Xocavənd rayonlarının azadlığı uğrunda gedən döyüşlərdə iştirak etmişəm. Laçın rayonu işğaldan azad olduğdan sonra   08.12.2020-ci  il tarixində tabor şəklində Laçın rayonu Bülüldüz kəndinə daxil olmuşuq. Orda müvafiq postlar quraraq müdafiəni tam təmin etmişik. 31 dekabr 2020-ci il tarixində yenidən ordu sıralarından ehtiyata buraxılmışam. 04.03.2021-ci tarixdə Ədliyyə Naziri cənab Fikrət Məmmədov tərəfindən Fəxri Fərmanla mükafatlandırılmışam."/>
-
-    </div>
+  <!-- Banner -->
+  <div id="banner" class="mt-3 mt-sm-5">
+    <page
+      title="Məmmədli Ayxan Qüdrət oğlu"
+      image="ayxan.jpg"
+      body="
+      <p>Məmmədli Ayxan Qüdrət oğlu, 21.09.1996-cı ildə Bakı şəhərində anadan olmuşdur. 2002-2013-cü illərdə Bakı şəhəri, Yasamal rayonu 153 saylı orta məktəbdə almışdır. Ali təhsilini Milli Aviasiya Akademiyasının Uçuş Mühəndisliyi (təyyarə) ixtisasına tələb olunan “Psixofizioloji peşə seçimi” və “Fiziki hazırlıq” üzrə xüsusi qabiliyyət müsabiqələrini və Dövlət imtahan mərkəzi tərəfindən keçirilən qəbul imtahanında müəyyən balı toplayaraq, ali təhsilin bakalavr pilləsi üzrə almışdır. 2018-2019-cu illərdə həqiqi hərbi xidmətdə olmuşdur. 03.07.2020-ci il tarixdə 52 saylı notariat ofisində könüllü kimi fəaliyyətə başlamışdır. 28.09.2020-ci il tarixdə Yasamal rayon hərbi komissarlığı tərəfindən Silahlı Qüvvələrin təliminə cəlb olunmuş, 29.09.2021-ci il tarixdə Ali Baş Komandanın əmrinə əsasən işğal olunmuş torpaqlarımızın azad olunması uğrunda döyüşlərə qatılmışdır. Cəbrayıl, Füzuli, Xocavənd rayonlarının azadlığı uğrunda gedən döyüşlərdə iştirak etmişdir. Laçın rayonu işğaldan azad olunduqdan sonra 08.12.2020-ci il tarixində tabor şəklində Laçın rayonu Bülüldüz kəndinə daxil olmuşdur. 31.12.2020-ci il tarixində ehtiyata buraxılmışdır. 
+    </p>
+    <p>Azərbaycan Respublikasının ədliyyə naziri I dərəcəli dövlət ədliyyə müşaviri Fikrət Məmmədovun əmrinə əsasən Vətən müharibəsində iştirak edərək fədakarlıq göstərdiyinə görə Fəxri fərmanla təltif edilmişdir.</p>"
+    />
+  </div>
 </template>
 
 <script>
-import Page from '../components/common/Page.vue'
+import Page from "../components/common/Page.vue";
 
-    export default {
+export default {
   components: { Page },
-        name: "Ayxan"
-    }
+  name: "Ayxan",
+};
 </script>
 
 <style scoped>
-
 </style>
