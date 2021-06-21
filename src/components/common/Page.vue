@@ -15,7 +15,7 @@
           />
         </div>
 
-        <div class="col-md-8 col-12 align-self-start p-0 mt-3 mt-md-0">
+        <div class="col-md-8 col-12 align-self-start mt-3 mt-md-0 px-3">
           <span class="title text-center text-md-start">{{ title }}</span>
           <hr />
           <p v-html="body"></p>
@@ -112,6 +112,11 @@ hr {
 .banner-title {
   font-size: 1.2em;
   color: white !important;
+}
+
+p{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @media (max-width: 576px) {

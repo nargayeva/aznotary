@@ -52,21 +52,6 @@
 </template>
 
 <script>
-export default {
-  name: "Header",
-  data() {
-    return {
-      lang: "az",
-    };
-  },
-  methods: {
-    toggleLanguage() {
-      if (this.lang === "az") {
-        this.lang = "en";
-      } else this.lang = "az";
-    },
-  },
-};
 </script>
 
 <style scoped>
