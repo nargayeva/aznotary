@@ -1,7 +1,10 @@
 <template>
-    <!-- Banner -->
-    <div id="banner" class="mt-3 mt-sm-5">
-    <page title="Ağazadə Ziya Əvəzağa oğlu" image="ziya.jpg" body="
+  <!-- Banner -->
+  <div id="banner" class="mt-3 mt-sm-5">
+    <page
+      title="Ağazadə Ziya Əvəzağa oğlu"
+      image="ziya.jpg"
+      body="
     
     <p> Ağazadə Ziya Əvəzağa oğlu, 13.01.1993-cü il tarixdə Əli-Bayramlı şəhərində anadan olmuşdur. Orta təhsilini 2000-2011-ci 
     il tarixlərdə Şirvan şəhər Elçin İmanov adına 10 saylı tam orta məktəbdə almışdır. Ali təhsilini 
@@ -15,21 +18,21 @@
     İlham Əliyevin sərəncamlarına əsasən “Cəbrayılın azad olunmasına görə”, “Qubadlının azad olunmasına görə” 
     və “Cəsur döyüşçü” medalları ilə, o cümlədən Azərbaycan Respublikasının ədliyyə naziri I dərəcəli dövlət 
     ədliyyə müşaviri Fikrət Məmmədovun əmrinə əsasən Vətən müharibəsində iştirak edərək fədakarlıq 
-    göstərdiyinə görə Fəxri fərmanla təltif edilmişdir. </p>
-"/>
-
-    </div>
+    göstərdiyinə görə Fəxri fərmanla təltif edilmişdir. </p>"
+      next="../../views/shamxal"
+      previous="../../views/eli"
+    />
+  </div>
 </template>
 
 <script>
-import Page from '../components/common/Page.vue'
+import Page from "../components/common/Page.vue";
 
-    export default {
+export default {
   components: { Page },
-        name: "Ziya"
-    }
+  name: "Ziya",
+};
 </script>
 
 <style scoped>
-
 </style>

@@ -58,7 +58,6 @@
                     <router-link to="eli" class="more_button">ƏTRAFLI</router-link>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -87,6 +86,10 @@
     .banner-title {
         font-size: 2em;
         color: white !important;
+    }
+
+    .title {
+        text-transform: uppercase;
     }
     
     @media (max-width: 576px) {

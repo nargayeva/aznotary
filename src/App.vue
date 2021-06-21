@@ -5,7 +5,7 @@
 <script>
 export default {
   name: 'App',
-  title: "Notariat Palatası"
+  title: "Notariat Palatası",
 }
 </script>
 

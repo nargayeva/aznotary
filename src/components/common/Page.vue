@@ -2,31 +2,36 @@
   <!-- Banner -->
   <div class="container">
     <div id="banner d-none d-md-block" class="mt-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-10 col-md-6 ml-5"></div>
+      <div class="row">
+        <div class="col-10 col-md-6 ml-5"></div>
+      </div>
+
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-12">
+          <img
+            :src="require(`../../../public/images/${image}`)"
+            alt=""
+            class="images"
+          />
         </div>
+
+        <div class="col-md-8 col-12 align-self-start p-0 mt-3 mt-md-0">
+          <span class="title text-center text-md-start">{{ title }}</span>
+          <hr />
+          <p v-html="body"></p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3 mb-5 d-flex flex-row justify-content-between">
+      <div class="col-6 d-flex justify-content-start">
+        <router-link :to="previous" class="more_button">ƏVVƏLKİ</router-link>
+      </div>
+
+      <div class="col-6 d-flex justify-content-end">
+        <router-link :to="next" class="more_button">SONRAKI</router-link>
       </div>
     </div>
 
-    <div class="container mb-0 mb-md-5 p-0">
-      <div class="container">
-        <div class="row justify-content-evenly">
-          <div class="col-md-4 col-12 pl-2">
-            <img
-              :src="require(`../../../public/images/${image}`)"
-              alt=""
-              class="images"
-            />
-          </div>
-          <div class="col-md-8 col-12 align-self-start p-0 mt-3 mt-md-0">
-            <span class="title text-center text-md-start">{{ title }}</span>
-            <hr />
-            <p v-html="body"></p>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -34,7 +39,6 @@
 import "../../assets/css/index.css";
 
 export default {
-  name: "nofer",
   props: {
     image: {
       required: true,
@@ -48,6 +52,14 @@ export default {
       required: true,
       type: String,
     },
+    previous: {
+      required: false,
+      type: String,
+    },
+    next: {
+      required: false,
+      type: String,
+    }
   },
   methods: {
     stringToHtml(str) {
