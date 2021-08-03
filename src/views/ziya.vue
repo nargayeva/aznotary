@@ -10,7 +10,7 @@
     
     <p> Azərbaycan Respublikası Prezidenti, Silahlı Qüvvələrin Ali Baş Komandanı İlham Əliyevin sərəncamlarına əsasən “Cəbrayılın azad olunmasına görə”, “Qubadlının azad olunmasına görə” və “Cəsur döyüşçü” medalları ilə, o cümlədən Azərbaycan Respublikasının ədliyyə naziri I dərəcəli dövlət ədliyyə müşaviri Fikrət Məmmədovun əmrinə əsasən Vətən müharibəsində iştirak edərək fədakarlıq göstərdiyinə görə Fəxri fərmanla təltif edilmişdir.  </p>"
       next="../../views/shamxal"
-      previous="../../views/eli"
+      previous="../../views/teymur"
     />
   </div>
 </template>

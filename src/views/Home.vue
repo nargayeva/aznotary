@@ -2,6 +2,24 @@
     <div>
         <!-- Banner -->
         <div id="banner" class="mt-2 mt-sm-4 container"></div>
+
+        <div class="container mt-4 p-0">
+            <div class="row">
+                <div class="col-12 mb-4 text-center">
+                    <span class="title">ŞƏHİDLƏR ÖLMƏZ, VƏTƏN BÖLÜNMƏZ!</span>
+                </div>
+            </div>
+
+            <div class="row mb-4 box-container justify-content-center">
+
+            <div class="col-md-3 col-9 box text-center mb-5" id="ziya">
+                <img src="../../public/images/teymur.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <router-link to="teymur" class="more_button">ƏTRAFLI</router-link>
+                </div>
+            </div>
+            </div>
+        </div>
         
         <!-- Boxes -->
         <div class="container mt-4 p-0">

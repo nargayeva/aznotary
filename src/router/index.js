@@ -40,6 +40,11 @@ const routes = [
                 path: 'ozal',
                 name: 'ozal',
                 component: () => import('../views/ozal'),
+            },
+            {
+                path: 'teymur',
+                name: 'teymur',
+                component: () => import('../views/teymur'),
             }
         ]
     }
