@@ -89,6 +89,19 @@ body {
     font-size: 2em;
 }
 
+.title-president {
+    font-size: 1.8em;
+}
+
+.president {
+    font-size: 1.5em;
+    margin-right: 2em;
+}
+
+.shehid {
+    background-color: var(--blue-color);
+}
+
 .flex-button {
     background-color: white;
     padding: 10px;
@@ -106,7 +119,7 @@ body {
 }
 
 .footer {
-    min-height: 300px;
+    min-height: 250px;
     background-color: var(--blue-color);
 }
 

@@ -9,9 +9,9 @@
                     <a href="https://aznotary.az/az/page/qarabag-heqiqetleri" target="_blank" class="footer-text pt-2">Qarabağ həqiqətləri</a>
                 </div>
 
-                <hr class="d-sm-block d-md-none" />
+                <!-- <hr class="d-sm-block d-md-none" /> -->
 
-                <div class="col-md-4 d-flex flex-column">
+                <!-- <div class="col-md-4 d-flex flex-column">
 
                     <span class="footer-text pb-2">Telefon:</span>
 
@@ -27,20 +27,20 @@
                         <span class="footer-text">Azərbaycan Respublikası, AZ1025, Bakı şəhəri, 8 Noyabr prospekti 25 E, Bakı Ağ Şəhər Ofis Binası, III mərtəbə</span>
                     </div>
 
-                </div>
+                </div> -->
 
-                <hr class="d-sm-block d-md-none" />
+                <!-- <hr class="d-sm-block d-md-none" /> -->
 
                 <div class="col-md-4 d-flex flex-column align-items-md-center align-items-sm-start justify-content-end">
 
                     <!-- <img :src="require('/public/images/edliyye - logo.png')" class="img-fluid d-flex mb-3" id="logo" alt=""> -->
-
+<!-- 
                     <div class="d-inline">
                         <i class="fab fa-instagram footer-icons"></i>
                         <i class="fab fa-facebook footer-icons ml-3"></i>
                         <i class="fab fa-twitter footer-icons ml-3"></i>
                         <i class="fab fa-youtube footer-icons ml-3"></i>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
