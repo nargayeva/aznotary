@@ -10,10 +10,16 @@
                     <span class="president d-block text-right">İlham Əliyev</span>
                 </div>
             </div>
+        </div>
+        
+        <div class="container">
+            <div class="row mb-4 box-container justify-content-between">
 
-            <div class="row mb-4 box-container justify-content-end">
+                <div class="col-8 mb-5">
+                    <img src="../../public/images/shehid.jpg" alt="Avatar" class="image">
+                </div>
 
-                <div class="col-md-3 col-9 box text-center mb-5" id="teymur">
+                <div class="col-md-4 col-9 box text-center mb-5" id="teymur">
                     <img src="../../public/images/teymur.jpg" alt="Avatar" class="image">
                     <div class="overlay">
                         <router-link to="teymur" class="more_button">ƏTRAFLI</router-link>
@@ -22,6 +28,7 @@
 
             </div>
         </div>
+
         
         <!-- Boxes -->
         <div class="container mt-4 p-0">
