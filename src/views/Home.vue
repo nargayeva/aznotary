@@ -6,18 +6,20 @@
         <div class="container mt-4 p-0">
             <div class="row">
                 <div class="col-12 mb-4 text-center">
-                    <span class="title">ŞƏHİDLƏR ÖLMƏZ, VƏTƏN BÖLÜNMƏZ!</span>
+                    <span class="title-president title">“BİZİM HƏDƏFİMİZ ƏRAZİ BÜTÖVLÜYÜMÜZÜN BƏRPA EDİLMƏSİ İDİ, BUNA NAİL OLDUQ”</span>
+                    <span class="president d-block text-right">İlham Əliyev</span>
                 </div>
             </div>
 
-            <div class="row mb-4 box-container justify-content-center">
+            <div class="row mb-4 box-container justify-content-end">
 
-            <div class="col-md-3 col-9 box text-center mb-5" id="ziya">
-                <img src="../../public/images/teymur.jpg" alt="Avatar" class="image">
-                <div class="overlay">
-                    <router-link to="teymur" class="more_button">ƏTRAFLI</router-link>
+                <div class="col-md-3 col-9 box text-center mb-5" id="teymur">
+                    <img src="../../public/images/teymur.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <router-link to="teymur" class="more_button">ƏTRAFLI</router-link>
+                    </div>
                 </div>
-            </div>
+
             </div>
         </div>
         
