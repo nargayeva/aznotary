@@ -29,6 +29,21 @@
     src: url('../fonts/Calibri/calibri-bold.ttf');
   }
 
+@font-face {
+    font-family: CalibriItalic;
+    src: url('../fonts/Calibri/calibri-italic.TTF');
+}
+
+@font-face {
+    font-family: MontserratItalic;
+    src: url('../fonts/Montserrat/Montserrat-Italic.ttf');
+}
+
+@font-face {
+    font-family: MontserratItalicMedium;
+    src: url('../fonts/Montserrat/Montserrat-MediumItalic.ttf');
+}
+
 
 body {
     font-family: CalibriRegular !important;
@@ -90,12 +105,14 @@ body {
 }
 
 .title-president {
-    font-size: 1.8em;
+    font-family: MontserratItalicMedium;
+    font-size: 1.5em;
 }
 
 .president {
+    font-family: MontserratItalic;
     font-size: 1.5em;
-    margin-right: 2em;
+    /* margin-right: 2em; */
 }
 
 .shehid {
