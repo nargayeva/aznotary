@@ -2,7 +2,7 @@
   <!-- Banner -->
   <div id="banner" class="mt-3 mt-sm-5">
     <page
-      title="Məmmədli Ayxan Qüdrət oğlu"
+      title="Osmanlı Teymur Saday oğlu"
       image="teymur.jpg"
       body="
       <p>Osmanlı Teymur Saday oğlu 31.05.1995-ci ildə İsmayıllı rayonunun Cülyan kəndində anadan
@@ -20,7 +20,7 @@
       İlham Əliyevin müvafiq sərəncamlarına əsasən Osmanlı Teymur Saday oğlu “ Vətən uğrunda”,
       “Suqovuşanın azad olunmasına görə” və “Cəsur doyüşçü” medalları ilə təltif edilmişdir.</p>"
       next="../../views/ziya"
-      previous="../../views/"
+      previous="../../views/eli"
     />
   </div>
 </template>
