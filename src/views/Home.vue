@@ -1,9 +1,9 @@
 <template>
   <div>
     <!-- Banner -->
-    <div id="banner" class="mt-2 mt-sm-4 container"></div>
+    <div id="banner" class="mt-2 mb-5 mt-sm-4 container"></div>
 
-    <div class="container mt-4 p-0">
+    <div class="container mt-5 mb-5 p-0">
       <div class="row">
         <div class="col-12 mb-4 text-center">
           <span class="title-president"
@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="container p-0">
+    <!-- <div class="container p-0">
       <div
         class="
           row
@@ -44,10 +44,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Boxes -->
-    <div class="container mt-4 p-0">
+    <div class="container mt-5 p-0">
       <div class="row">
         <div class="col-12 mb-4 text-center">
           <span class="title"
