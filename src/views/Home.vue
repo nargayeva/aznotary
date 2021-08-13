@@ -64,6 +64,57 @@
           justify-content-md-between justify-content-center
         "
       >
+
+        <div class="col-md-3 col-9 box text-center mb-5" id="ozal">
+          <img src="../../public/images/ozal.jpg" alt="Avatar" class="image" />
+          <div class="overlay">
+            <router-link to="ozal" class="more_button">ƏTRAFLI</router-link>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-9 box text-center mb-5" id="nofer">
+          <img src="../../public/images/nofer.jpg" alt="Avatar" class="image" />
+          <div class="overlay">
+            <router-link
+              to="nofer"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              class="more_button"
+              >ƏTRAFLI</router-link
+            >
+          </div>
+        </div>
+
+        <div class="col-md-3 col-9 box text-center mb-5" id="nicat">
+          <img src="../../public/images/nicat.jpg" alt="Avatar" class="image" />
+          <div class="overlay">
+            <router-link
+              to="nicat"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              class="more_button"
+              >ƏTRAFLI</router-link
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="
+          row
+          mb-0 mb-md-4
+          box-container
+          justify-content-md-between justify-content-center
+        "
+      >
+
+       <div class="col-md-3 col-9 box text-center mb-5" id="ayxan">
+          <img src="../../public/images/ayxan.jpg" alt="Avatar" class="image" />
+          <div class="overlay">
+            <router-link to="ayxan" class="more_button">ƏTRAFLI</router-link>
+          </div>
+        </div>
+
         <div class="col-md-3 col-9 box text-center mb-5" id="ziya">
           <img src="../../public/images/ziya.jpg" alt="Avatar" class="image" />
           <div class="overlay">
@@ -81,13 +132,6 @@
             <router-link to="shamxal" class="more_button">ƏTRAFLI</router-link>
           </div>
         </div>
-
-        <div class="col-md-3 col-9 box text-center mb-5" id="ayxan">
-          <img src="../../public/images/ayxan.jpg" alt="Avatar" class="image" />
-          <div class="overlay">
-            <router-link to="ayxan" class="more_button">ƏTRAFLI</router-link>
-          </div>
-        </div>
       </div>
 
       <div
@@ -98,52 +142,10 @@
           justify-content-md-between justify-content-center
         "
       >
-        <div class="col-md-3 col-9 box text-center mb-5" id="nofer">
-          <img src="../../public/images/nofer.jpg" alt="Avatar" class="image" />
-          <div class="overlay">
-            <router-link
-              to="nofer"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              class="more_button"
-              >ƏTRAFLI</router-link
-            >
-          </div>
-        </div>
-
-        <div class="col-md-3 col-9 box text-center mb-5" id="ozal">
-          <img src="../../public/images/ozal.jpg" alt="Avatar" class="image" />
-          <div class="overlay">
-            <router-link to="ozal" class="more_button">ƏTRAFLI</router-link>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-9 box text-center mb-5" id="eli">
+      <div class="col-md-3 col-9 box text-center mb-5" id="eli">
           <img src="../../public/images/eli.jpg" alt="Avatar" class="image" />
           <div class="overlay">
             <router-link to="eli" class="more_button">ƏTRAFLI</router-link>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="
-          row
-          mb-0 mb-md-4
-          box-container
-          justify-content-md-between justify-content-center
-        "
-      >
-        <div class="col-md-3 col-9 box text-center mb-5" id="nicat">
-          <img src="../../public/images/nicat.jpg" alt="Avatar" class="image" />
-          <div class="overlay">
-            <router-link
-              to="nicat"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              class="more_button"
-              >ƏTRAFLI</router-link
-            >
           </div>
         </div>
       </div>
