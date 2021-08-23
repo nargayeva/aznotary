@@ -17,7 +17,7 @@
       istiqamətində döyüşlərdə şəhidlik zirvəsinə ucalmışdır. Şəhid Osmanlı Teymur oktyabrın 17-də
       İsmayıllı rayonunun Cülyan kənd qəbiristanlığında dəfn olunmuşdur.</p>
       <p>Ölümündən sonra Azərbaycan Respublikası Prezidenti, Silahlı Qüvvələrin Ali Baş Komandanı
-      İlham Əliyevin müvafiq sərəncamlarına əsasən Osmanlı Teymur Saday oğlu “ Vətən uğrunda”,
+      İlham Əliyevin müvafiq sərəncamlarına əsasən Osmanlı Teymur Saday oğlu “ Vətən git uğrunda”,
       “Suqovuşanın azad olunmasına görə” və “Cəsur doyüşçü” medalları ilə təltif edilmişdir.</p>"
       next="../../views/ziya"
       previous="../../views/eli"
