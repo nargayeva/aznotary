@@ -17,10 +17,8 @@
       Hərbi rütbəsi əsgərdir.</p>
 
       <p>Azərbaycan Respublikası Prezidenti, Silahlı Qüvvələrin Ali Baş Komandanı İlham Əliyevin
-      müvafiq sərəncamlarına əsasən “Laçının azad olunmasına görə” medalı və “Suqovuşanın azad
-      olunmasına görə” medalları ilə, o cümlədən Azərbaycan Respublikasının ədliyyə naziri I dərəcəli
-      dövlət ədliyyə müşaviri Fikrət Məmmədovun əmrinə əsasən Vətən müharibəsində iştirak edərək
-      fədakarlıq göstərdiyinə görə Fəxri fərmanla təltif edilmişdir.</p>"
+      müvafiq sərəncamına əsasən  “Suqovuşanın azad
+      olunmasına görə” medalı ilə təltif edilmişdir.</p>"
 
       next="../../views/ayxan"
       previous="../../views/nofer"
