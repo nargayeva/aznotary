@@ -17,7 +17,7 @@
       Hərbi rütbəsi əsgərdir.</p>
 
       <p>Azərbaycan Respublikası Prezidenti, Silahlı Qüvvələrin Ali Baş Komandanı İlham Əliyevin
-      müvafiq sərəncamına əsasən  “Suqovuşanın azad
+      müvafiq sərəncamına əsasən “Suqovuşanın azad
       olunmasına görə” medalı ilə təltif edilmişdir.</p>"
 
       next="../../views/ayxan"
